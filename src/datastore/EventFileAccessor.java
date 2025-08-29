@@ -1,3 +1,4 @@
+package datastore;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -5,6 +6,8 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+
+
 public class EventFileAccessor {
 private Map<Date, String> eventList;
 private SimpleDateFormat sdFormat =

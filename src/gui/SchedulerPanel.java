@@ -1,4 +1,6 @@
+package gui;
 
+import datastore.EventFileAccessor;
 
 import javax.swing.*;
 import javax.swing.border.Border;
