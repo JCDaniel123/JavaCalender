@@ -10,8 +10,7 @@ import java.util.Scanner;
 
 public class EventFileAccessor {
 private Map<Date, String> eventList;
-private SimpleDateFormat sdFormat =
-new SimpleDateFormat("M-d-yyyy");
+private SimpleDateFormat sdFormat = new SimpleDateFormat("M-d-yyyy");
 private String fileName;
 public EventFileAccessor(String fileName) throws Exception {
 this.fileName = fileName;
